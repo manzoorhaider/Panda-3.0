@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="D:\NewDrive\Programming\GitHub\Panda-3.0\Style.css">
 	<script type="text/javascript">
 		
 		function check_rollno() {
@@ -19,8 +20,11 @@
 	</script>
 </head>
 <body>
-<center>
+
 <form>
+<div>
+
+	<br><br>
 	Name : <input type="text" id="name" placeholder="Full Name"><input type="button" value="Check" onclick="check_name()">
 
 	<br><br>
@@ -28,7 +32,11 @@
 
 	<br><br>
 	Date of Birth : <input type="text" id="dob" placeholder="dd-mm-yyyy"><input type="button" value="Check" onclick="check_dob()">
+
+	<br><br><br>
+	<input type="reset" value="Reset">&nbsp;
+	<input type="button" value="Save"><br><br>
+</div>
 </form>
-</center>
 </body>
 </html>
